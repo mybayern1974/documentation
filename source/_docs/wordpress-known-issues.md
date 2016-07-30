@@ -34,5 +34,8 @@ Pantheon supports designated use cases for [WordPress Site Networks](/docs/wordp
 
 It's especially ill-advised to use Multisite to set up many distinct/separate sites — e.g. running different plugins, for different customers — on a single code installation.
 
+## Media Upload Issue Since 4.5 Upgrade
+WordPress core introduced a bug in version 4.5 that can lead to large media uploads failing. You can [follow progress on the bug on WordPress.org](https://core.trac.wordpress.org/ticket/36534). If you run into this issue, you can use [this patch](https://wordpress.org/support/topic/http-errors-on-media-uploads-after-45-update?replies=24#post-8300481) as a workaround. 
+
 ## Unsupported Plugins
 See [Unsupported Modules and Plugins](/docs/unsupported-modules-plugins) for an up-to-date list of modules and plugins that do not work with or are not supported by Pantheon.
